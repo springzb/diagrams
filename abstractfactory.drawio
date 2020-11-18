@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T02:42:13.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="QGN0m7AmVzoR2_pj-6r7" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T02:47:51.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mOhdrFR0W_E0zwZeKFwX" version="13.9.9" type="github">
   <diagram id="CZs7VnL2AZJ_Xgo5Zqkd" name="Page-1">
-    <mxGraphModel dx="2858" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,12 +12,6 @@
         </mxCell>
         <mxCell id="AhOssEII6KVHRI5glIdp-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;抽象工厂模式：绿色为接口，蓝色为实体类&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="360" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="AhOssEII6KVHRI5glIdp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AhOssEII6KVHRI5glIdp-7" target="AhOssEII6KVHRI5glIdp-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AhOssEII6KVHRI5glIdp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AhOssEII6KVHRI5glIdp-7" target="AhOssEII6KVHRI5glIdp-9">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AhOssEII6KVHRI5glIdp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AhOssEII6KVHRI5glIdp-7" target="AhOssEII6KVHRI5glIdp-13">
           <mxGeometry relative="1" as="geometry" />
@@ -55,11 +49,11 @@
         <mxCell id="AhOssEII6KVHRI5glIdp-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;RefundFactoryAbstract&lt;br&gt;&lt;br&gt;void refund()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="550" y="260" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AhOssEII6KVHRI5glIdp-12" value="&lt;font style=&quot;font-size: 15px&quot;&gt;WechatOrderFactory&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="410" width="200" height="60" as="geometry" />
+        <mxCell id="AhOssEII6KVHRI5glIdp-12" value="&lt;font style=&quot;font-size: 15px&quot;&gt;WechatOrderFactory&lt;br&gt;&lt;br&gt;PayFacotyAbstaract creatPay()&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="380" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AhOssEII6KVHRI5glIdp-13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;AliOrderFactory&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="640" y="420" width="200" height="60" as="geometry" />
+        <mxCell id="AhOssEII6KVHRI5glIdp-13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;AliOrderFactory&lt;br&gt;&lt;br&gt;RefundFacotyAbstract createRefund()&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AhOssEII6KVHRI5glIdp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.324;entryY=1.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AhOssEII6KVHRI5glIdp-18" target="AhOssEII6KVHRI5glIdp-9">
           <mxGeometry relative="1" as="geometry">
