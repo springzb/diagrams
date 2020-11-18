@@ -1,14 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T03:12:38.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Yoni-yhkkPoYKvK7F78D" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T08:37:04.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="IvYzQAqTGH8UNDB3ytac" version="13.9.9" type="github">
   <diagram id="_D21O0CqMoseouuk6Jyx" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1084" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ez1NVCz9KSLhxXyHlMgG-1" value="&lt;span style=&quot;font-size: 18px&quot;&gt;类适配器模式： 在不改变原来类的情况下面，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 新建一个类保持原有的功能，并且还能添加新功能&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-1" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;类适配器模式&lt;/b&gt;： 在不改变原来类的情况下面，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 新建一个类保持原有的功能，并且还能添加新功能&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="70" width="460" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ez1NVCz9KSLhxXyHlMgG-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="310" y="200" width="170" height="60" as="geometry" />
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ez1NVCz9KSLhxXyHlMgG-2" target="ez1NVCz9KSLhxXyHlMgG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;新的接口&amp;nbsp; TargetModule&lt;br&gt;&lt;br&gt;包含原来的方法 和 新的方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ez1NVCz9KSLhxXyHlMgG-3" target="ez1NVCz9KSLhxXyHlMgG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-3" value="&lt;font style=&quot;font-size: 16px&quot;&gt;原来的类&amp;nbsp; OldModule&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="235" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-4" value="&lt;font style=&quot;font-size: 16px&quot;&gt;新的适配类 OldModuleAdapter&lt;br&gt;&lt;br&gt;实现并且覆写新的方法，即可代替原来的类&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="355" width="235" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-7" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;API适配器模式&lt;/b&gt;： 一个类实现某个接口，必须覆写全部的方法&lt;br&gt;但是现在只需要覆写其中的方法，就用到api适配器&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="550" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ez1NVCz9KSLhxXyHlMgG-8" target="ez1NVCz9KSLhxXyHlMgG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-8" value="&lt;font style=&quot;font-size: 16px&quot;&gt;PayGateway&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="630" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ez1NVCz9KSLhxXyHlMgG-9" target="ez1NVCz9KSLhxXyHlMgG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ez1NVCz9KSLhxXyHlMgG-9" target="ez1NVCz9KSLhxXyHlMgG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-9" value="&lt;font style=&quot;font-size: 16px&quot;&gt;PayGatewayAdapter&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="770" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-11" value="&lt;font style=&quot;font-size: 16px&quot;&gt;ProductVideoOrder&lt;br&gt;&lt;br&gt;这里需要什么方法就覆写什么方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="940" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-12" value="&lt;span style=&quot;font-size: 16px&quot;&gt;ProductVipOrder&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;这里需要什么方法就覆写什么方法&lt;/span&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="451" y="940" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
