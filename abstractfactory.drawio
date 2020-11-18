@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T06:18:17.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.9" etag="q1UmZE0_8NB3bBgE4x5n" type="github"><diagram id="CZs7VnL2AZJ_Xgo5Zqkd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-18T02:01:36.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7GhpMIJdZC9CxqK5z0S2" version="13.9.9" type="github">
+  <diagram id="CZs7VnL2AZJ_Xgo5Zqkd" name="Page-1">
+    <mxGraphModel dx="921" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AhOssEII6KVHRI5glIdp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AhOssEII6KVHRI5glIdp-3" target="AhOssEII6KVHRI5glIdp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AhOssEII6KVHRI5glIdp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.633;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AhOssEII6KVHRI5glIdp-3" target="AhOssEII6KVHRI5glIdp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AhOssEII6KVHRI5glIdp-3" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Pay&lt;br&gt;&lt;br&gt;unifiedorder()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="155" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhOssEII6KVHRI5glIdp-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;微信支付&lt;br&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;unifiedorder()&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="45" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhOssEII6KVHRI5glIdp-5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;支付宝支付&lt;br&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;unifiedorder()&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="249" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AhOssEII6KVHRI5glIdp-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;抽象工厂模式：绿色为接口，蓝色为实体类&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="360" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
