@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T02:55:32.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.9" etag="wCy-bhAWEOIwHbzpVA-5" type="github"><diagram id="_D21O0CqMoseouuk6Jyx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-18T03:12:38.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Yoni-yhkkPoYKvK7F78D" version="13.9.9" type="github">
+  <diagram id="_D21O0CqMoseouuk6Jyx" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-1" value="&lt;span style=&quot;font-size: 18px&quot;&gt;类适配器模式： 在不改变原来类的情况下面，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 新建一个类保持原有的功能，并且还能添加新功能&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ez1NVCz9KSLhxXyHlMgG-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
