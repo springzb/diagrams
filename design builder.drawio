@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T07:28:50.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.9" etag="0Usx5QQg1zaQOGR9cfOD" type="github"><diagram id="c0euCZ_ZqnufaI-KA44-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-20T07:41:05.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ZrcVdRBmCXF0SkWcOQ3o" version="13.9.9" type="github">
+  <diagram id="c0euCZ_ZqnufaI-KA44-" name="Page-1">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rfx14-gHAetRMhGF4-WF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rfx14-gHAetRMhGF4-WF-1" target="rfx14-gHAetRMhGF4-WF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfx14-gHAetRMhGF4-WF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rfx14-gHAetRMhGF4-WF-1" target="rfx14-gHAetRMhGF4-WF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfx14-gHAetRMhGF4-WF-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;ComputerBuilder&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="162" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rfx14-gHAetRMhGF4-WF-4" value="&lt;font style=&quot;font-size: 16px&quot;&gt;LowComputerBuilder&lt;br&gt;&lt;br&gt;具体实现方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="362" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rfx14-gHAetRMhGF4-WF-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;HighComputerBuilder&lt;br&gt;&lt;br&gt;具体实现方法&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="362" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rfx14-gHAetRMhGF4-WF-8" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Director&lt;br&gt;&lt;br&gt;Computer&amp;nbsp; create (ComputerBuilder builder)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="379" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rfx14-gHAetRMhGF4-WF-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;建造者模式：适用场景&amp;nbsp; 电脑同一个品牌 有多种不同的配置&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" width="470" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
