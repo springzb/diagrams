@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T03:58:53.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="xcE-riScXf6P11anljJr" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-05T04:04:05.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ZedbX2Q2AXdMi4pquuNj" version="13.10.4" type="github">
   <diagram id="cwe65pxhitnzSZ8GmUWx" name="Page-1">
     <mxGraphModel dx="1221" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,12 +101,12 @@
             <mxPoint x="540" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="et4Qu4gKHP5Ylg-2PBbr-24" value="&lt;font style=&quot;font-size: 16px&quot;&gt;SYN&amp;nbsp; seq=y&amp;nbsp; ack=x+1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="et4Qu4gKHP5Ylg-2PBbr-24" value="&lt;font style=&quot;font-size: 16px&quot;&gt;SYN-ACK&amp;nbsp; seq=y&amp;nbsp; ack=x+1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="469.9976255707095" y="310.0019578990307" as="geometry">
             <mxPoint x="-29" y="135" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="et4Qu4gKHP5Ylg-2PBbr-25" value="&lt;font style=&quot;font-size: 16px&quot;&gt;seq=x+1&amp;nbsp; ack=y+1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="et4Qu4gKHP5Ylg-2PBbr-25" value="&lt;font style=&quot;font-size: 16px&quot;&gt;ACK seq=x+1&amp;nbsp; ack=y+1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="469.9976255707095" y="395.0019578990307" as="geometry">
             <mxPoint x="-29" y="135" as="offset" />
           </mxGeometry>
@@ -119,6 +119,9 @@
         </mxCell>
         <mxCell id="et4Qu4gKHP5Ylg-2PBbr-30" value="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;accept返回&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="530" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="et4Qu4gKHP5Ylg-2PBbr-31" value="同步码（客户端和服务端分配生成）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="278" y="260" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
